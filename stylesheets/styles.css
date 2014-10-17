@@ -13,7 +13,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 5px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 5px;
 }
 
 h1, h2, h3 {
@@ -29,7 +31,7 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+	color: #494949;
 }
 
 a {
@@ -46,7 +48,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:900px;
   margin:0 auto;
 }
 
@@ -170,7 +172,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:570px;
   float:right;
   padding-bottom:50px;
 }
@@ -263,4 +265,10 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+.wrapper section li {
+	margin-left: 2em;
+}
+.wrapper section p {
+	margin-left: 1em;
 }
